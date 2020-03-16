@@ -1,7 +1,7 @@
 [
 	{
-		"name": "@mmstudio/atom",
-		"location": "@mmstudio/atom/dist",
+		"name": "@mmstudio/aw000008",
+		"location": "@mmstudio/aw000008/dist",
 		"main": "main"
 	}
 ]
