@@ -1,9 +1,10 @@
 import { expect } from 'chai';
-import t from '../dist/index';
+import a from '../dist/index';
 
-describe('xxx', () => {
-	it('xxx', () => {
-		t();
-		expect(1).not.eq(2);
+const mm = { data: { local: { key: '665' } } }
+describe('fd-aw000007', async () => {
+	it('aw7', async () => {
+		const value = a(mm, 'key');
+		expect(value).eq('665')
 	});
 });
